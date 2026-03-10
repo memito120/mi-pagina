@@ -158,7 +158,7 @@ export function Skills() {
 
                       {skill.learning && (
                         <p className="mt-1 text-[10px] font-semibold uppercase tracking-widest text-amber-600">
-                          Aprendiendo
+                          Aprendiendo...
                         </p>
                       )}
                     </motion.article>
