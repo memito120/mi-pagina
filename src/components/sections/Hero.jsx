@@ -104,7 +104,7 @@ export function Hero() {
 						<div className="w-[280px] sm:w-[340px] md:w-[380px] rounded-3xl border bg-card/70 backdrop-blur p-4 shadow-xl">
 							<div className="relative rounded-2xl overflow-hidden bg-muted aspect-[4/5]">
 								<img
-									src="/user.jpeg"
+									src="user.jpeg"
 									alt="Imagen de perfil de Guillermo Delgado"
 									className="w-full h-full object-cover"
 								/>

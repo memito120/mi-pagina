@@ -11,7 +11,7 @@ export const projects = [
     technologies: ["PHP puro", "MySQL", "Bootstrap", "JavaScript", "HTML", "CSS"],
     demoUrl: "",
     githubUrl: "",
-    image: "/proyecto-1.png"
+    image: "proyecto-1.png"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const projects = [
     technologies: ["React", "JavaScript", "Node.js", "MySQL"],
     demoUrl: "",
     githubUrl: "",
-    image: "/proyecto-2.png"
+    image: "proyecto-2.png"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const projects = [
     description: "Desarrollo de una plataforma inmobiliaria con funcionalidades de búsqueda avanzada, filtros dinámicos y gestión de propiedades.",
     technologies: ["PHP", "MySQL", "Bootstrap", "JavaScript", "HTML", "CSS"],
     githubUrl: "",
-    image: "/proyecto-3.png"
+    image: "proyecto-3.png"
   },
 ];
 
@@ -44,7 +44,7 @@ export const services = [
     priceRange: "$15.000 – $50.000 CLP por equipo",
     duration: "Variable según servicio",
     note: "Precio por computador. Descuento disponible para 5+ equipos. Desplazamiento puede aplicar según zona.",
-    images: ["/servicio-5.webp", "/servicio-7.jpg", "/servicio-10.jpg"]
+    images: ["servicio-5.webp", "servicio-7.jpg", "servicio-10.jpg"]
   },
   {
     id: 3,
@@ -56,7 +56,7 @@ export const services = [
     priceRange: "$15.000 – $45.000 CLP",
     duration: "1-2 horas",
     note: "Según si incluye solo limpieza o cambio de pasta térmica + diagnóstico completo.",
-    images: ["/servicio-1.webp", "/servicio-14.jpg", "/servicio-15.jpg"]
+    images: ["servicio-1.webp", "servicio-14.jpg", "servicio-15.jpg"]
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ export const services = [
     priceRange: "$30.000 – $60.000 CLP",
     duration: "2-3 horas",
     note: "Ideal para equipos con altas temperaturas o uso intensivo.",
-    images: ["/servicio-2.jpg", "/servicio-5.jpg", "/servicio-11.jpg"]
+    images: ["servicio-2.jpg", "servicio-5.jpg", "servicio-11.jpg"]
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const services = [
     priceRange: "$20.000 – $40.000 CLP",
     duration: "2-4 horas",
     note: "Incluye instalación de software base según necesidad del cliente.",
-    images: ["/servicio-3.webp", "/servicio-12.jpg", "/servicio-16.jpg"]
+    images: ["servicio-3.webp", "servicio-12.jpg", "servicio-16.jpg"]
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ export const services = [
     priceRange: "Desde $10.000 CLP",
     duration: "15-60 min",
     note: "Costo inicial de diagnóstico, sujeto a reparación posterior.",
-    images: ["/servicio-4.webp", "/servicio-13.jpg"]
+    images: ["servicio-4.webp", "servicio-13.jpg"]
   },
   {
     id: 6,
@@ -104,7 +104,7 @@ export const services = [
     priceRange: "Próximamente",
     duration: "Variable según reparación",
     note: "Servicio en desarrollo, disponible a finales de 2026.",
-    images: ["/servicio-17.jpg"]
+    images: ["servicio-17.jpg"]
   }
 
 ];

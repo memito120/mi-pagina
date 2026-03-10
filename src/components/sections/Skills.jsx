@@ -4,42 +4,42 @@ const skillCategories = [
   {
     title: 'Front-end',
     skills: [
-      { name: 'React+Vite', icon: '/icons/react.svg' },
-      { name: 'JavaScript', icon: '/icons/javascript.svg' },
-      { name: 'TypeScript', icon: '/icons/typescript.svg', learning: true },
-      { name: 'HTML', icon: '/icons/html5.svg' },
-      { name: 'CSS', icon: '/icons/css.svg' },
-      { name: 'Tailwind CSS', icon: '/icons/tailwindcss.svg', learning: true },
-      { name: 'Bootstrap', icon: '/icons/bootstrap.svg' }
+      { name: 'React+Vite', icon: 'icons/react.svg' },
+      { name: 'JavaScript', icon: 'icons/javascript.svg' },
+      { name: 'TypeScript', icon: 'icons/typescript.svg', learning: true },
+      { name: 'HTML', icon: 'icons/html5.svg' },
+      { name: 'CSS', icon: 'icons/css.svg' },
+      { name: 'Tailwind CSS', icon: 'icons/tailwindcss.svg', learning: true },
+      { name: 'Bootstrap', icon: 'icons/bootstrap.svg' }
     ]
   },
   {
     title: 'Back-end',
     skills: [
-      { name: 'PHP', icon: '/icons/php.svg' },
-      { name: 'MongoDB', icon: '/icons/mongodb.svg' },
-      { name: 'MySQL', icon: '/icons/mysql.svg' },
-      { name: 'RESTful APIs', icon: '/icons/restfulapi.svg' },
-      { name: 'Node.js', icon: '/icons/nodejs.svg', learning: true },
-      { name: 'Next.js', icon: '/icons/nextjs.svg', learning: true }
+      { name: 'PHP', icon: 'icons/php.svg' },
+      { name: 'MongoDB', icon: 'icons/mongodb.svg' },
+      { name: 'MySQL', icon: 'icons/mysql.svg' },
+      { name: 'RESTful APIs', icon: 'icons/restfulapi.svg' },
+      { name: 'Node.js', icon: 'icons/nodejs.svg', learning: true },
+      { name: 'Next.js', icon: 'icons/nextjs.svg', learning: true }
     ]
   },
   {
     title: 'Herramientas',
     skills: [
-      { name: 'Office', icon: '/icons/office365.svg' },
-      { name: 'Git', icon: '/icons/git.svg' },
-      { name: 'npm', icon: '/icons/npm.svg' },
-      { name: 'Figma', icon: '/icons/figma.svg' },
-      { name: 'Copilot', icon: '/icons/copilotgithub.svg' },
-      { name: 'Excel intermedio', icon: '/icons/excel.svg' }
+      { name: 'Office', icon: 'icons/office365.svg' },
+      { name: 'Git', icon: 'icons/git.svg' },
+      { name: 'npm', icon: 'icons/npm.svg' },
+      { name: 'Figma', icon: 'icons/figma.svg' },
+      { name: 'Copilot', icon: 'icons/copilotgithub.svg' },
+      { name: 'Excel intermedio', icon: 'icons/excel.svg' }
     ]
   },
   {
     title: 'Metodologías',
     skills: [
-      { name: 'Agile/Scrum', icon: '/icons/agile.svg', learning: true },
-      { name: 'Kanban', icon: '/icons/kanban.svg', learning: true }
+      { name: 'Agile/Scrum', icon: 'icons/agile.svg', learning: true },
+      { name: 'Kanban', icon: 'icons/kanban.svg', learning: true }
     ]
   }
 ];
@@ -146,7 +146,7 @@ export function Skills() {
                               damping: 14,
                               delay: index * 0.08 + skillIndex * 0.03 + 0.12,
                             }}
-                            src="/icons/learning.svg"
+                            src="icons/learning.svg"
                             alt="Aprendiendo"
                             className="absolute -right-2 -top-2 h-5 w-5 rounded-full border border-amber-600/60 bg-amber-600/20 "
                             loading="lazy"

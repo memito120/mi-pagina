@@ -27,7 +27,7 @@ export function Navbar() {
     <>
      {/* Icono titular decorativo */}
       <img
-        src="/icon-titular.svg"
+        src="icon-titular.svg"
         alt="Icono titular de marca personal"
         className="absolute -translate-y-3 h-32 w-40 2xl:h-52 2xl:w-52 object-contain pointer-events-none"
       />
@@ -52,7 +52,7 @@ export function Navbar() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <img
-                    src={isDarkMode ? '/coclear-dark.svg' : '/coclear-normal.svg'}
+                    src={isDarkMode ? 'coclear-dark.svg' : 'coclear-normal.svg'}
                     alt="Usuario de implante coclear"
                     className="w-6 h-6 object-contain"
                   />
