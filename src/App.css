@@ -1,0 +1,19 @@
+/* Estilos personalizados */
+
+/* Animaciones suaves para transiciones */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Mejora del scroll */
+section {
+  scroll-margin-top: 2rem;
+}
+
+/* Asegurar que las imágenes se carguen suavemente */
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+

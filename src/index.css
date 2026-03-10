@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 38% 95%;
+    --foreground: 26 20% 18%;
+    --card: 38 33% 97%;
+    --card-foreground: 26 20% 18%;
+    --popover: 38 33% 97%;
+    --popover-foreground: 26 20% 18%;
+    --primary: 30 33% 46%;
+    --primary-foreground: 40 40% 96%;
+    --secondary: 36 30% 90%;
+    --secondary-foreground: 26 18% 24%;
+    --muted: 34 25% 88%;
+    --muted-foreground: 30 12% 40%;
+    --accent: 34 28% 86%;
+    --accent-foreground: 26 18% 24%;
+    --destructive: 8 70% 50%;
+    --destructive-foreground: 35 32% 92%;
+    --border: 32 20% 80%;
+    --input: 32 20% 80%;
+    --ring: 30 33% 46%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 28 20% 13%;
+    --foreground: 35 32% 88%;
+    --card: 30 18% 16%;
+    --card-foreground: 35 30% 86%;
+    --popover: 30 18% 16%;
+    --popover-foreground: 35 30% 86%;
+    --primary: 34 42% 68%;
+    --primary-foreground: 26 24% 18%;
+    --secondary: 28 16% 22%;
+    --secondary-foreground: 35 24% 82%;
+    --muted: 28 14% 20%;
+    --muted-foreground: 34 16% 68%;
+    --accent: 30 18% 24%;
+    --accent-foreground: 35 26% 84%;
+    --destructive: 8 58% 46%;
+    --destructive-foreground: 35 32% 90%;
+    --border: 30 14% 28%;
+    --input: 30 14% 28%;
+    --ring: 34 42% 68%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

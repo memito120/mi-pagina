@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="agile-grad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9A65A"/>
+      <stop offset="1" stop-color="#B9823F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="24" stroke="url(#agile-grad)" stroke-width="4"/>
+  <path d="M20 38c3-8 12-15 24-12" stroke="#D9A65A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 18l6 8-10 1" stroke="#D9A65A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="27" cy="41" r="3" fill="#D9A65A"/>
+</svg>
