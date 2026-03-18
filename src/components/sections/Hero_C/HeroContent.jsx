@@ -31,7 +31,7 @@ export function HeroContent({ isDarkMode, onScrollToSection }) {
 					className="text-sm px-3 py-1.5 flex items-center gap-2 bg-primary/10 hover:bg-primary/20 transition-colors"
 				>
 					<img
-						src={isDarkMode ? '../src/assets/coclear-dark.svg' : '../src/assets/coclear-normal.svg'}
+						src={isDarkMode ? '/coclear-dark.svg' : '/coclear-normal.svg'}
 						alt="Implante coclear"
 						className="w-10"
 					/>

@@ -17,7 +17,7 @@ export function TecnoModal({ tecnos, onClose }) {
         }
 
         if (icon.startsWith('../src/')) {
-            return icon.replace('../src/', '/src/');
+            return icon.replace('../src/', '/src/').replace('../dist/', '/dist/').replace('../public/', '/public/');
         }
 
         return icon;

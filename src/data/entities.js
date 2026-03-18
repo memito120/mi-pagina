@@ -37,42 +37,42 @@ export const skillCategories = [
   {
     title: 'Front-end',
     skills: [
-      { name: 'React+Vite', icon: '../src/assets/icons/react.svg' },
-      { name: 'JavaScript', icon: '../src/assets/icons/javascript.svg' },
-      { name: 'TypeScript', icon: '../src/assets/icons/typescript.svg', learning: true },
-      { name: 'HTML', icon: '../src/assets/icons/html5.svg' },
-      { name: 'CSS', icon: '../src/assets/icons/css.svg' },
-      { name: 'Tailwind CSS', icon: '../src/assets/icons/tailwindcss.svg', learning: true },
-      { name: 'Bootstrap', icon: '../src/assets/icons/bootstrap.svg' }
+      { name: 'React+Vite', icon: 'react.svg' },
+      { name: 'JavaScript', icon: 'javascript.svg' },
+      { name: 'TypeScript', icon: 'typescript.svg', learning: true },
+      { name: 'HTML', icon: 'html5.svg' },
+      { name: 'CSS', icon: 'css.svg' },
+      { name: 'Tailwind CSS', icon: 'tailwindcss.svg', learning: true },
+      { name: 'Bootstrap', icon: 'bootstrap.svg' }
     ]
   },
   {
     title: 'Back-end',
     skills: [
-      { name: 'PHP', icon: '../src/assets/icons/php.svg', learning: true },
-      { name: 'MongoDB', icon: '../src/assets/icons/mongodb.svg' },
-      { name: 'MySQL', icon: '../src/assets/icons/mysql.svg' },
-      { name: 'RESTful APIs', icon: '../src/assets/icons/restfulapi.svg' },
-      { name: 'Node.js', icon: '../src/assets/icons/nodejs.svg', learning: true },
-      { name: 'Next.js', icon: '../src/assets/icons/nextjs.svg', learning: true }
+      { name: 'PHP', icon: 'php.svg', learning: true },
+      { name: 'MongoDB', icon: 'mongodb.svg' },
+      { name: 'MySQL', icon: 'mysql.svg' },
+      { name: 'RESTful APIs', icon: 'restfulapi.svg' },
+      { name: 'Node.js', icon: 'nodejs.svg', learning: true },
+      { name: 'Next.js', icon: 'nextjs.svg', learning: true }
     ]
   },
   {
     title: 'Herramientas',
     skills: [
-      { name: 'Office', icon: '../src/assets/icons/office365.svg' },
-      { name: 'Git', icon: '../src/assets/icons/git.svg' },
-      { name: 'npm', icon: '../src/assets/icons/npm.svg' },
-      { name: 'Figma', icon: '../src/assets/icons/figma.svg' },
-      { name: 'Copilot IA', icon: '../src/assets/icons/copilotgithub.svg' },
-      { name: 'Excel intermedio', icon: '../src/assets/icons/excel.svg' }
+      { name: 'Office', icon: 'office365.svg' },
+      { name: 'Git', icon: 'git.svg' },
+      { name: 'npm', icon: 'npm.svg' },
+      { name: 'Figma', icon: 'figma.svg' },
+      { name: 'Copilot IA', icon: 'copilotgithub.svg' },
+      { name: 'Excel intermedio', icon: 'excel.svg' }
     ]
   },
   {
     title: 'Metodologías',
     skills: [
-      { name: 'Agile/Scrum', icon: '../src/assets/icons/agile.svg', learning: true },
-      { name: 'Kanban', icon: '../src/assets/icons/kanban.svg', learning: true }
+      { name: 'Agile/Scrum', icon: 'agile.svg', learning: true },
+      { name: 'Kanban', icon: 'kanban.svg', learning: true }
     ]
   }
 ];
@@ -125,27 +125,27 @@ export const projects = [
     id: 1,
     title: "Plataforma web de escuela (Proyecto practica profesional)",
     description: "Desarrollo de una plataforma web para un colegio, con funcionalidades de gestión académica, comunicación y recursos para estudiantes y profesores, por temas de confidencialidad no puedo mostrar el proyecto completo, pero se pueden ver algunas imágenes de prueba y tecnologías utilizadas.",
-    technologies: [{ name: 'HTML', icon: '../src/assets/icons/html5.svg' }, { name: 'CSS', icon: '../src/assets/icons/css.svg' }, { name: 'JavaScript', icon: '../src/assets/icons/javascript.svg' }, { name: 'PHP', icon: '../src/assets/icons/php.svg' }, { name: 'MySQL', icon: '../src/assets/icons/mysql.svg' }, { name: 'Bootstrap', icon: '../src/assets/icons/bootstrap.svg' }],
+    technologies: [{ name: 'HTML', icon: 'html5.svg' }, { name: 'CSS', icon: 'css.svg' }, { name: 'JavaScript', icon: 'javascript.svg' }, { name: 'PHP', icon: 'php.svg' }, { name: 'MySQL', icon: 'mysql.svg' }, { name: 'Bootstrap', icon: 'bootstrap.svg' }],
     demoUrl: "",
     githubUrl: "",
-    images: ["../src/assets/proyecto-1.jpg", "../src/assets/proyecto-4.png", "../src/assets/proyecto-5.png"]
+    images: ["proyecto-1.jpg", "proyecto-4.png", "proyecto-5.png"]
   },
   {
     id: 2,
     title: "Gestion de un gimnasio (Proyecto grupal)",
     description: "Aplicación de gestión de un gimnasio con funcionalidades de arrastrar y soltar, categorización y colaboración en tiempo real.",
-    technologies: [{ name: 'React', icon: '../src/assets/icons/react.svg' }, { name: 'JavaScript', icon: '../src/assets/icons/javascript.svg' }, { name: 'Node.js', icon: '../src/assets/icons/nodejs.svg' }, {name: 'Next.js', icon: '../src/assets/icons/nextjs.svg'},{ name: 'MySQL', icon: '../src/assets/icons/mysql.svg' }],
+    technologies: [{ name: 'React', icon: 'react.svg' }, { name: 'JavaScript', icon: 'javascript.svg' }, { name: 'Node.js', icon: 'nodejs.svg' }, {name: 'Next.js', icon: 'nextjs.svg'},{ name: 'MySQL', icon: 'mysql.svg' }],
     demoUrl: "",
     githubUrl: "",
-    images: ["../src/assets/proyecto-2.png"]
+    images: ["proyecto-2.png"]
   },
   {
     id: 3,
     title: "Plataforma inmobiliaria (Proyecto prueba final de carrera)",
     description: "Desarrollo de una plataforma inmobiliaria con funcionalidades de búsqueda avanzada, filtros dinámicos y gestión de propiedades.",
-    technologies: [{ name: 'PHP', icon: '../src/assets/icons/php.svg' }, { name: 'MySQL', icon: '../src/assets/icons/mysql.svg' }, { name: 'Bootstrap', icon: '../src/assets/icons/bootstrap.svg' }, { name: 'JavaScript', icon: '../src/assets/icons/javascript.svg' }, { name: 'HTML', icon: '../src/assets/icons/html5.svg' }, { name: 'CSS', icon: '../src/assets/icons/css.svg' }],
+    technologies: [{ name: 'PHP', icon: 'php.svg' }, { name: 'MySQL', icon: 'mysql.svg' }, { name: 'Bootstrap', icon: 'bootstrap.svg' }, { name: 'JavaScript', icon: 'javascript.svg' }, { name: 'HTML', icon: 'html5.svg' }, { name: 'CSS', icon: 'css.svg' }],
     githubUrl: "",
-    images: ["../src/assets/proyecto-3.jpg"]
+    images: ["proyecto-3.jpg"]
   },
   {
     id: 4,
@@ -154,7 +154,7 @@ export const projects = [
     comingSoon: true,
     technologies: [],
     githubUrl: "",
-    images: ["../src/assets/coming-lightmode.png", "../src/assets/coming-darkmode.png"]
+    images: ["coming-lightmode.png", "coming-darkmode.png"]
 
   }
 
@@ -172,7 +172,7 @@ export const services = [
     priceRange: "$15.000 – $50.000 CLP por equipo",
     duration: "Variable según servicio",
     note: "Precio por computador. Descuento disponible para 5+ equipos. Desplazamiento puede aplicar según zona.",
-    images: ["../src/assets/servicio-5.webp", "../src/assets/servicio-7.jpg", "../src/assets/servicio-10.jpg" , "../src/assets/servicio-18.jpg", ]
+    images: ["servicio-5.webp", "servicio-7.jpg", "servicio-10.jpg" , "servicio-18.jpg", ]
   },
   {
     id: 3,
@@ -184,7 +184,7 @@ export const services = [
     priceRange: "$15.000 – $45.000 CLP",
     duration: "1-2 horas",
     note: "Según si incluye solo limpieza o cambio de pasta térmica + diagnóstico completo.",
-    images: ["../src/assets/servicio-1.webp", "../src/assets/servicio-14.jpg", "../src/assets/servicio-15.jpg"]
+    images: ["servicio-1.webp", "servicio-14.jpg", "servicio-15.jpg"]
   },
   {
     id: 4,
@@ -196,7 +196,7 @@ export const services = [
     priceRange: "$30.000 – $60.000 CLP",
     duration: "2-3 horas",
     note: "Ideal para equipos con altas temperaturas o uso intensivo.",
-    images: ["../src/assets/servicio-2.jpg", "../src/assets/servicio-5.jpg", "../src/assets/servicio-11.jpg"]
+    images: ["servicio-2.jpg", "servicio-5.jpg", "servicio-11.jpg"]
   },
   {
     id: 5,
@@ -208,7 +208,7 @@ export const services = [
     priceRange: "$20.000 – $40.000 CLP",
     duration: "2-4 horas",
     note: "Incluye instalación de software base según necesidad del cliente.",
-    images: ["../src/assets/servicio-3.webp", "../src/assets/servicio-12.jpg", "../src/assets/servicio-16.jpg","../src/assets/servicio-19.jpg"]
+    images: ["servicio-3.webp", "servicio-12.jpg", "servicio-16.jpg","servicio-19.jpg"]
   },
   {
     id: 2,
@@ -220,7 +220,7 @@ export const services = [
     priceRange: "Desde $10.000 CLP",
     duration: "15-60 min",
     note: "Costo inicial de diagnóstico, sujeto a reparación posterior.",
-    images: ["../src/assets/servicio-4.webp", "../src/assets/servicio-13.jpg"]
+    images: ["servicio-4.webp", "servicio-13.jpg"]
   },
   {
     id: 6,
@@ -232,7 +232,7 @@ export const services = [
     priceRange: null,
     duration: null,
     note: "Servicio en desarrollo, disponible a finales de 2026.",
-    images: ["../src/assets/servicio-17.jpg"]
+    images: ["servicio-17.jpg"]
   }
 
 ];

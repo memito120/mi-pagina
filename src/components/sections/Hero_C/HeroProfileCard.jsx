@@ -11,7 +11,7 @@ export function HeroProfileCard() {
 			<div className="w-[300px] sm:w-[340px] md:w-[380px] rounded-3xl p-6">
 				<div className="relative rounded-2xl overflow-hidden">
 					<img
-						src="src/assets/user.jpeg"
+						src="/user.jpeg"
 						alt="Imagen de perfil de Guillermo Delgado"
 						className="w-full h-full object-cover"
 					/>

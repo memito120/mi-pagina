@@ -28,7 +28,7 @@ export function ComingSoonCard({ project, index }) {
     }
 
     if (path.startsWith('../src/')) {
-      return path.replace('../src/', '/src/');
+      return path.replace('../src/', '/src/').replace('../dist/', '/dist/').replace('../public/', '/public/');
     }
 
     return path;
