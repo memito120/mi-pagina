@@ -10,7 +10,7 @@
     --card-foreground: 26 20% 18%;
     --popover: 38 33% 97%;
     --popover-foreground: 26 20% 18%;
-    --primary: 30 33% 46%;
+    --primary: 30 50% 31%;
     --primary-foreground: 40 40% 96%;
     --secondary: 36 30% 90%;
     --secondary-foreground: 26 18% 24%;
@@ -33,8 +33,8 @@
     --card-foreground: 35 30% 86%;
     --popover: 30 18% 16%;
     --popover-foreground: 35 30% 86%;
-    --primary: 34 42% 68%;
-    --primary-foreground: 26 24% 18%;
+    --primary: 35 48% 69%;
+    --primary-foreground: 18 25% 15%;
     --secondary: 28 16% 22%;
     --secondary-foreground: 35 24% 82%;
     --muted: 28 14% 20%;
@@ -56,7 +56,7 @@
   body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'inter', system-ui, -apple-system, sans-serif;
   }
 }
 

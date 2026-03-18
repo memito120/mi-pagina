@@ -4,12 +4,48 @@
 * {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
+  transition-duration: 50ms;
 }
 
 /* Mejora del scroll */
 section {
   scroll-margin-top: 2rem;
+}
+
+/* Animacion de entrada suave por seccion durante el scroll */
+.scroll-reveal-section {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition: opacity 520ms ease-out, transform 620ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.scroll-reveal-section.section-is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+.scroll-motion-target {
+  transform: translate3d(0, var(--scroll-offset-y), 0);
+  transition: transform 280ms linear;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
+
+  .scroll-motion-target {
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
 }
 
 /* Asegurar que las imágenes se carguen suavemente */
