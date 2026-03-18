@@ -37,42 +37,42 @@ export const skillCategories = [
   {
     title: 'Front-end',
     skills: [
-      { name: 'React+Vite', icon: 'react.svg' },
-      { name: 'JavaScript', icon: 'javascript.svg' },
-      { name: 'TypeScript', icon: 'typescript.svg', learning: true },
-      { name: 'HTML', icon: 'html5.svg' },
-      { name: 'CSS', icon: 'css.svg' },
-      { name: 'Tailwind CSS', icon: 'tailwindcss.svg', learning: true },
-      { name: 'Bootstrap', icon: 'bootstrap.svg' }
+      { name: 'React+Vite', icon: '/react.svg' },
+      { name: 'JavaScript', icon: '/javascript.svg' },
+      { name: 'TypeScript', icon: '/typescript.svg', learning: true },
+      { name: 'HTML', icon: '/html5.svg' },
+      { name: 'CSS', icon: '/css.svg' },
+      { name: 'Tailwind CSS', icon: '/tailwindcss.svg', learning: true },
+      { name: 'Bootstrap', icon: '/bootstrap.svg' }
     ]
   },
   {
     title: 'Back-end',
     skills: [
-      { name: 'PHP', icon: 'php.svg', learning: true },
-      { name: 'MongoDB', icon: 'mongodb.svg' },
-      { name: 'MySQL', icon: 'mysql.svg' },
-      { name: 'RESTful APIs', icon: 'restfulapi.svg' },
-      { name: 'Node.js', icon: 'nodejs.svg', learning: true },
-      { name: 'Next.js', icon: 'nextjs.svg', learning: true }
+      { name: 'PHP', icon: '/php.svg', learning: true },
+      { name: 'MongoDB', icon: '/mongodb.svg' },
+      { name: 'MySQL', icon: '/mysql.svg' },
+      { name: 'RESTful APIs', icon: '/restfulapi.svg' },
+      { name: 'Node.js', icon: '/nodejs.svg', learning: true },
+      { name: 'Next.js', icon: '/nextjs.svg', learning: true }
     ]
   },
   {
     title: 'Herramientas',
     skills: [
-      { name: 'Office', icon: 'office365.svg' },
-      { name: 'Git', icon: 'git.svg' },
-      { name: 'npm', icon: 'npm.svg' },
-      { name: 'Figma', icon: 'figma.svg' },
-      { name: 'Copilot IA', icon: 'copilotgithub.svg' },
-      { name: 'Excel intermedio', icon: 'excel.svg' }
+      { name: 'Office', icon: '/office365.svg' },
+      { name: 'Git', icon: '/git.svg' },
+      { name: 'npm', icon: '/npm.svg' },
+      { name: 'Figma', icon: '/figma.svg' },
+      { name: 'Copilot IA', icon: '/copilotgithub.svg' },
+      { name: 'Excel intermedio', icon: '/excel.svg' }
     ]
   },
   {
     title: 'Metodologías',
     skills: [
-      { name: 'Agile/Scrum', icon: 'agile.svg', learning: true },
-      { name: 'Kanban', icon: 'kanban.svg', learning: true }
+      { name: 'Agile/Scrum', icon: '/agile.svg', learning: true },
+      { name: 'Kanban', icon: '/kanban.svg', learning: true }
     ]
   }
 ];
