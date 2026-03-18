@@ -37,42 +37,42 @@ export const skillCategories = [
   {
     title: 'Front-end',
     skills: [
-      { name: 'React+Vite', icon: 'icon/react.svg' },
-      { name: 'JavaScript', icon: 'icon/javascript.svg' },
-      { name: 'TypeScript', icon: 'icon/typescript.svg', learning: true },
-      { name: 'HTML', icon: 'icon/html5.svg' },
-      { name: 'CSS', icon: 'icon/css.svg' },
-      { name: 'Tailwind CSS', icon: 'icon/tailwindcss.svg', learning: true },
-      { name: 'Bootstrap', icon: 'icon/bootstrap.svg' }
+      { name: 'React+Vite', icon: 'icons/react.svg' },
+      { name: 'JavaScript', icon: 'icons/javascript.svg' },
+      { name: 'TypeScript', icon: 'icons/typescript.svg', learning: true },
+      { name: 'HTML', icon: 'icons/html5.svg' },
+      { name: 'CSS', icon: 'icons/css.svg' },
+      { name: 'Tailwind CSS', icon: 'icons/tailwindcss.svg', learning: true },
+      { name: 'Bootstrap', icon: 'icons/bootstrap.svg' }
     ]
   },
   {
     title: 'Back-end',
     skills: [
-      { name: 'PHP', icon: 'icon/php.svg', learning: true },
-      { name: 'MongoDB', icon: 'icon/mongodb.svg' },
-      { name: 'MySQL', icon: 'icon/mysql.svg' },
-      { name: 'RESTful APIs', icon: 'icon/restfulapi.svg' },
-      { name: 'Node.js', icon: 'icon/nodejs.svg', learning: true },
-      { name: 'Next.js', icon: 'icon/nextjs.svg', learning: true }
+      { name: 'PHP', icon: 'icons/php.svg', learning: true },
+      { name: 'MongoDB', icon: 'icons/mongodb.svg' },
+      { name: 'MySQL', icon: 'icons/mysql.svg' },
+      { name: 'RESTful APIs', icon: 'icons/restfulapi.svg' },
+      { name: 'Node.js', icon: 'icons/nodejs.svg', learning: true },
+      { name: 'Next.js', icon: 'icons/nextjs.svg', learning: true }
     ]
   },
   {
     title: 'Herramientas',
     skills: [
-      { name: 'Office', icon: 'icon/office365.svg' },
-      { name: 'Git', icon: 'icon/git.svg' },
-      { name: 'npm', icon: 'icon/npm.svg' },
-      { name: 'Figma', icon: 'icon/figma.svg' },
-      { name: 'Copilot IA', icon: 'icon/copilotgithub.svg' },
-      { name: 'Excel intermedio', icon: 'icon/excel.svg' }
+      { name: 'Office', icon: 'icons/office365.svg' },
+      { name: 'Git', icon: 'icons/git.svg' },
+      { name: 'npm', icon: 'icons/npm.svg' },
+      { name: 'Figma', icon: 'icons/figma.svg' },
+      { name: 'Copilot IA', icon: 'icons/copilotgithub.svg' },
+      { name: 'Excel intermedio', icon: 'icons/excel.svg' }
     ]
   },
   {
     title: 'Metodologías',
     skills: [
-      { name: 'Agile/Scrum', icon: 'icon/agile.svg', learning: true },
-      { name: 'Kanban', icon: 'icon/kanban.svg', learning: true }
+      { name: 'Agile/Scrum', icon: 'icons/agile.svg', learning: true },
+      { name: 'Kanban', icon: 'icons/kanban.svg', learning: true }
     ]
   }
 ];
@@ -125,7 +125,7 @@ export const projects = [
     id: 1,
     title: "Plataforma web de escuela (Proyecto practica profesional)",
     description: "Desarrollo de una plataforma web para un colegio, con funcionalidades de gestión académica, comunicación y recursos para estudiantes y profesores, por temas de confidencialidad no puedo mostrar el proyecto completo, pero se pueden ver algunas imágenes de prueba y tecnologías utilizadas.",
-    technologies: [{ name: 'HTML', icon: 'icon/html5.svg' }, { name: 'CSS', icon: 'icon/css.svg' }, { name: 'JavaScript', icon: 'icon/javascript.svg' }, { name: 'PHP', icon: 'icon/php.svg' }, { name: 'MySQL', icon: 'icon/mysql.svg' }, { name: 'Bootstrap', icon: 'icon/bootstrap.svg' }],
+    technologies: [{ name: 'HTML', icon: 'icons/html5.svg' }, { name: 'CSS', icon: 'icons/css.svg' }, { name: 'JavaScript', icon: 'icons/javascript.svg' }, { name: 'PHP', icon: 'icons/php.svg' }, { name: 'MySQL', icon: 'icons/mysql.svg' }, { name: 'Bootstrap', icon: 'icons/bootstrap.svg' }],
     demoUrl: "",
     githubUrl: "",
     images: ["proyecto-1.jpg", "proyecto-4.png", "proyecto-5.png"]
@@ -134,7 +134,7 @@ export const projects = [
     id: 2,
     title: "Gestion de un gimnasio (Proyecto grupal)",
     description: "Aplicación de gestión de un gimnasio con funcionalidades de arrastrar y soltar, categorización y colaboración en tiempo real.",
-    technologies: [{ name: 'React', icon: 'icon/react.svg' }, { name: 'JavaScript', icon: 'icon/javascript.svg' }, { name: 'Node.js', icon: 'icon/nodejs.svg' }, {name: 'Next.js', icon: 'icon/nextjs.svg'},{ name: 'MySQL', icon: 'icon/mysql.svg' }],
+    technologies: [{ name: 'React', icon: 'icons/react.svg' }, { name: 'JavaScript', icon: 'icons/javascript.svg' }, { name: 'Node.js', icon: 'icons/nodejs.svg' }, {name: 'Next.js', icon: 'icons/nextjs.svg'},{ name: 'MySQL', icon: 'icons/mysql.svg' }],
     demoUrl: "",
     githubUrl: "",
     images: ["proyecto-2.png"]
@@ -143,7 +143,7 @@ export const projects = [
     id: 3,
     title: "Plataforma inmobiliaria (Proyecto prueba final de carrera)",
     description: "Desarrollo de una plataforma inmobiliaria con funcionalidades de búsqueda avanzada, filtros dinámicos y gestión de propiedades.",
-    technologies: [{ name: 'PHP', icon: 'icon/php.svg' }, { name: 'MySQL', icon: 'icon/mysql.svg' }, { name: 'Bootstrap', icon: 'icon/bootstrap.svg' }, { name: 'JavaScript', icon: 'icon/javascript.svg' }, { name: 'HTML', icon: 'icon/html5.svg' }, { name: 'CSS', icon: 'icon/css.svg' }],
+    technologies: [{ name: 'PHP', icon: 'icons/php.svg' }, { name: 'MySQL', icon: 'icons/mysql.svg' }, { name: 'Bootstrap', icon: 'icons/bootstrap.svg' }, { name: 'JavaScript', icon: 'icons/javascript.svg' }, { name: 'HTML', icon: 'icons/html5.svg' }, { name: 'CSS', icon: 'icons/css.svg' }],
     githubUrl: "",
     images: ["proyecto-3.jpg"]
   },
